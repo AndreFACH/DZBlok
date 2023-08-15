@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./images/fons/Roboto-Bold.woff2') format('woff2'),
+      url('./images/fons/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./images/fons/Roboto-Medium.woff2') format('woff2'),
+      url('./images/fons/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./images/fons/Roboto-Regular.woff2') format('woff2'),
+      url('./images/fons/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+span[class^="icon-"] {
+  font-size: 50px;
+  color: #FFF;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blok {
+  width: 1100px;
+  background: #C4C4C4;
+  margin: 0 auto;
+}
+
+.container {  
+  margin: 0 auto;
+  padding: 0 ; 
+  height: 200px;
+  width: 1000px;  
+  background: #E6E6E6;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  float: left;    
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  float: right;
+}
+
+.box h2 {    
+  width: 200px;
+  height: 75px;
+  font-size: 64px;
+  color: white;
+  text-align: center; 
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.box1 h2 {    
+  width: 200px;
+  height: 75px;
+  font-size: 64px;
+  color: white;
+  text-align: center; 
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.box2 {
+  margin-left: 15px;
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  float: right;
+}
+
+.box2 h3 {    
+  width: 100px;
+  height: 37px;
+  font-size: 36px;
+  color: white;
+  text-align: center; 
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.box h3 {    
+  width: 200px;
+  height: 75px;
+  font-size: 64px;
+  color: white;
+  text-align: center; 
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.container1 {  
+  margin: 0 auto;
+  height: 200px;
+  width: 1000px;  
+  background: #E6E6E6;  
+}
+
+.container1 .box1 {
+  margin-left: 15px;
+}
+
+.container1 .box {
+  margin-right: 15px;
+}
+
+.container1 h3 {
+  width: 200px;
+  height: 75px;
+  font-size: 64px;
+  color: white;
+  text-align: center; 
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.block {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.block2 {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.block3 {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
